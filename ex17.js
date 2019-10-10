@@ -1,0 +1,3 @@
+function omit(obj, ...keys){
+    
+}
