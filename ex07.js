@@ -1,0 +1,2 @@
+function intersection(...values){
+}
