@@ -1,4 +1,4 @@
-function map(list, iteratecB){
+module.exports = function map(list, iteratecB){
     let arr = []
     for (let item of Object.defineProperties(list)){
         const [key, value] = item

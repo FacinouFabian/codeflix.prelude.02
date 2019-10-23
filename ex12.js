@@ -1,9 +1,7 @@
-function keys(obj){
+module.exports = function keys(obj){
 
     return Object.keys(obj)
 }
-
-console.log(keys({one: 1, two: 2, three: 3}))
 
 /*
 function keys(obj){

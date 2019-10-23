@@ -1,4 +1,4 @@
-function intersection(...values){
+module.exports = function intersection(...values){
     for (ent of values){
         // set a first tab in $first, and the others tabs
         [first, ...rest] = [...values]
@@ -14,5 +14,3 @@ function intersection(...values){
         return first
     }
 }
-
-console.log(intersection([1,2,3], [1,2,3,4], [1,2,3,4,5]))
